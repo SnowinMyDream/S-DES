@@ -91,7 +91,7 @@ public class Round_Func {
 		left = XOR(left,changed_right);
 		//合并结果
 		int[] round_output = new int[8];
-		for(int i=0;i<4;i++){//错误4：循环次数错误，原：for(int i=0;i<3;i++)
+		for(int i=0;i<4;i++){
 			round_output[i]=left[i];
 			round_output[i+4]=right[i];
 		}
